@@ -9,10 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.6.0",
+    "axios": "^1.8.1",
+    "firebase": "^11.3.1",
     "next": "15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "task1": "file:"
+    "react-icons": "^5.5.0",
+    "react-redux": "^9.2.0",
+    "react-select": "^5.10.1",
+    "react-slick": "^0.30.3",
+    "react-toastify": "^11.0.5",
+    "reactjs-popup": "^2.0.6",
+    "redux-persist": "^6.0.0",
+    "slick-carousel": "^1.8.1",
+    "task1": "file:",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
     "postcss": "^8",

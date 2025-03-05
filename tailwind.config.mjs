@@ -10,6 +10,28 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        appColor: "#009688",
+      },
+      fontFamily: {
+        appFont: "Montserrat",
+      },
+      keyframes: {
+        featuresAnimation: {"0%": {
+            boxShadow: "0 0 0 0 rgba(0, 150, 136, 0.7), 0 0 0 0 rgba(0, 150, 136, 0.7)",
+          },
+          "40%": {
+            boxShadow: "0 0 0 15px rgba(0, 150, 136, 0), 0 0 0 0 rgba(0, 150, 136, 0.7)",
+          },
+          "80%": {
+            boxShadow: "0 0 0 15px rgba(0, 150, 136, 0), 0 0 0 10px rgba(0, 150, 136, 0)",
+          },
+          "100%": {
+            boxShadow: "0 0 0 0 rgba(0, 150, 136, 0), 0 0 0 10px rgba(0, 150, 136, 0)",
+          },
+        },
+      },
+      animation: {
+        featuresAnimation: "featuresAnimation 2s infinite",
       },
     },
   },
